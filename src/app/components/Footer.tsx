@@ -1,5 +1,7 @@
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="flex items-center justify-center w-full fixed md:relative bottom-0 bg-gradient-to-tr from-blue-600 to-violet-600 text-slate-50 p-2 h-[30px]">
+        <p className="text-sm">Developed by <a className="text-slate-100" href="https://github.com/ashsajal1">Ashfiquzzaman Sajal</a></p>
+    </footer>
   )
 }
