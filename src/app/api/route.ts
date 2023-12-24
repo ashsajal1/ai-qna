@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
   );
 
   const result = await response.json();
-  console.log(result)
+  // console.log(result)
 
   return NextResponse.json(result)
 }

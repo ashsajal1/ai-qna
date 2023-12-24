@@ -58,7 +58,7 @@ export default function Playground() {
         <>
             <h1 className='text-xl md:text-3xl font-bold bg-gradient-to-tr from-blue-600 to-violet-600 text-transparent bg-clip-text'>AI Question answering</h1>
 
-            <div className={`px-12 pt-4 w-full md:w-[650px] ${isLoadng ? "animate-pulse" : ""}`}>
+            <div className={`px-4 md:px-2 pt-4 w-full md:w-[650px] ${isLoadng ? "animate-pulse" : ""}`}>
                 <p className="rounded border border-blue-400 p-6  bg-gradient-to-tr from-blue-600 to-violet-600 text-transparent bg-clip-text">
                     {answer ? (
                         <span> {isLoadng ? "Hold on! Answering question..." : answer}</span>
@@ -75,8 +75,8 @@ export default function Playground() {
             )}
 
 
-            <div className="flex flex-col gap-2 px-12 pt-4 w-full md:w-[650px] mb-[30px] md:mb-0 text-sm">
-                <textarea className="p-2 h-[300px] outline-none border rounded" value={context} onChange={handleContext} placeholder="Enter Context" />
+            <div className="flex flex-col gap-2 px-4 md:px-2 pt-4 w-full md:w-[650px] mb-[30px] md:mb-0 text-sm">
+                <textarea className="p-2 h-[280px] outline-none border rounded" value={context} onChange={handleContext} placeholder="Enter Context" />
                 <input className="p-2 outline-none border rounded" value={question} onChange={handleQuestion} type="text" placeholder="Enter question" />
                 <button disabled={isLoadng} className={`p-2 outline-none border rounded bg-gradient-to-tr from-blue-600 to-violet-600 text-slate-50 hover:to-violet-800 ${isLoadng ? "animate-pulse" : ""}`} onClick={handleSubmit}>Get Answer</button>
                 <button disabled={isLoadng} className={`p-2 outline-none border rounded text-slate-500`} onClick={handleExample}>See Example Usage</button>
