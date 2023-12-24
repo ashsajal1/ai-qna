@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'AI : Question answering',
-  description: 'Ai tools to answer question of specific context!',
+  description: 'Ai tools to answer question of specific context! Api provided by Huggingface.',
 }
 
 export default function RootLayout({
