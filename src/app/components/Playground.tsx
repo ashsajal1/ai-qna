@@ -74,12 +74,15 @@ export default function Playground() {
                 <Error errorText={error}></Error>
             )}
 
-
             <div className="flex flex-col gap-2 px-4 md:px-2 pt-4 w-full md:w-[650px] mb-[30px] md:mb-0 text-sm">
                 <textarea className="p-2 h-[280px] outline-none border rounded" value={context} onChange={handleContext} placeholder="Enter Context" />
                 <input className="p-2 outline-none border rounded" value={question} onChange={handleQuestion} type="text" placeholder="Enter question" />
                 <button disabled={isLoadng} className={`p-2 outline-none border rounded bg-gradient-to-tr from-blue-600 to-violet-600 text-slate-50 hover:to-violet-800 ${isLoadng ? "animate-pulse" : ""}`} onClick={handleSubmit}>Get Answer</button>
-                <button disabled={isLoadng} className={`p-2 outline-none border rounded text-slate-500`} onClick={handleExample}>See Example Usage</button>
+
+                <button disabled={isLoadng} className={`p-[1px] h-[38px] rounded bg-gradient-to-tr from-blue-600 to-violet-600 flex items-center justify-center`} onClick={handleExample}>
+                    <div className="w-full h-full rounded bg-slate-50 hover:bg-blue-100 flex items-center justify-center"><span className="bg-gradient-to-tr from-blue-600 to-violet-600 text-transparent bg-clip-text">See Example Usage</span></div>
+                </button>
+
             </div>
         </>
     )
