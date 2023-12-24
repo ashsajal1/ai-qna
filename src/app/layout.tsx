@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'AI : Question answering',
-  description: 'Ai tools to answer question of specific context! Api provided by Huggingface.',
+  description: 'Ai tools to answer question of specific context! Api is provided by Huggingface.',
   openGraph: {
     title: 'AI : Question answering',
-    description: 'Ai tools to answer question of specific context! Api provided by Huggingface.',
+    description: 'Ai tools to answer question of specific context! Api is provided by Huggingface.',
     url: 'https://ai-qna-six.vercel.app',
     siteName: 'Next.js',
     images: [

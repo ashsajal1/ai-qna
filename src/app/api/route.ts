@@ -2,7 +2,7 @@ import { type NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
   const { question, context } = await req.json();
-  console.log(question, context)
+  // console.log(question, context)
 
   const response = await fetch(
     "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2",
