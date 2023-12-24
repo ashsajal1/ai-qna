@@ -24,7 +24,7 @@ export default function Playground() {
 
         const result = await response.json();
         if (result.error) {
-            setError(result.error)
+            setError("The AI model is loading. Please try again in a few seconds.")
         } else {
             setError('')
             setAnswer(result.answer)
