@@ -26,6 +26,7 @@ export default function Playground() {
         if (result.error) {
             setError(result.error)
         } else {
+            setError('')
             setAnswer(result.answer)
         }
 
