@@ -9,27 +9,27 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'AI : Question answering',
   description: 'Ai tools to answer question of specific context! Api is provided by Huggingface.',
-  openGraph: {
-    title: 'AI : Question answering',
-    description: 'Ai tools to answer question of specific context! Api is provided by Huggingface.',
-    url: 'https://ai-qna-six.vercel.app',
-    siteName: 'Next.js',
-    images: [
-      {
-        url: 'https://nextjs.org/og.png',
-        width: 800,
-        height: 600,
-      },
-      {
-        url: 'https://nextjs.org/og-alt.png',
-        width: 1800,
-        height: 1600,
-        alt: 'My custom alt',
-      },
-    ],
-    locale: 'en_US',
-    type: 'website',
-  },
+  // openGraph: {
+  //   title: 'AI : Question answering',
+  //   description: 'Ai tools to answer question of specific context! Api is provided by Huggingface.',
+  //   url: 'https://ai-qna-six.vercel.app',
+  //   siteName: 'Next.js',
+  //   images: [
+  //     {
+  //       url: '/opengraph-image.jpg',
+  //       width: 800,
+  //       height: 600,
+  //     },
+  //     {
+  //       url: '/opengraph-image.jpg',
+  //       width: 1800,
+  //       height: 1600,
+  //       alt: 'My custom alt',
+  //     },
+  //   ],
+  //   locale: 'en_US',
+  //   type: 'website',
+  // },
 }
 
 export default function RootLayout({
