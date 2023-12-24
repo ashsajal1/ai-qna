@@ -64,7 +64,7 @@ export default function Playground() {
                         <span> {isLoadng ? "Hold on! Answering question..." : answer}</span>
                     ) : (
                         <span>
-                            {isLoadng ? "Hold on! Answering question..." : "Answer will appear here!"}
+                            {isLoadng ? "Hold on! Answering question..." : "The answer will appear here."}
                         </span>
                     )}
                 </p>
