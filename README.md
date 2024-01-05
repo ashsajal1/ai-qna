@@ -1,4 +1,4 @@
-# [Preview the app](https://ai-qna-six.vercel.app/)
+# [Preview the app](https://ai-qna-six.vercel.app/) 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
